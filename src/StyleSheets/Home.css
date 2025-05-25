@@ -1,0 +1,155 @@
+.home {
+  padding-top: 100px;
+  margin: 0px 20px;
+}
+.introduction h1 {
+  padding: 5px 0px;
+}
+.name {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 150, 1) 0%,
+    rgba(0, 204, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  border-image-slice: 1;
+  font-size: 50px;
+  margin: 15px 0px;
+  transition: all 0.3s ease-in-out;
+}
+.name:hover {
+  background-image: linear-gradient(
+    360deg,
+    rgba(0, 204, 255, 1) 0%,
+    rgba(255, 0, 150, 1) 100%
+  );
+}
+.coure {
+  color: rgba(255, 0, 150, 1);
+}
+.socia-media {
+  margin-top: 40px;
+}
+.socia-media ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.socia-media ul li {
+  margin: 0px 30px;
+  font-size: 30px;
+}
+.socia-media ul li a {
+  text-decoration: none;
+}
+.socia-media ul li .fa-linkedin {
+  color: blue;
+}
+.socia-media ul li .fa-instagram {
+  color: #e1306c;
+}
+.socia-media ul li .fa-github {
+  color: white;
+}
+.profile {
+  border-radius: 20px;
+  border: 3px solid;
+  border-image: linear-gradient(
+    rgba(255, 0, 150, 1) 0%,
+    rgba(0, 204, 255, 1) 100%
+  );
+  border-image-slice: 1;
+  border-image-repeat: round;
+  opacity: 0.8;
+}
+.profile img {
+  width: 240px;
+  height: 350px;
+}
+.home-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+.resume-container {
+  margin-top: 30px;
+  text-align: center;
+}
+.resume {
+  border: 1px solid rgba(0, 204, 255, 1);
+  text-decoration: none;
+  color: rgba(255, 0, 150, 1);
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+.resume:hover {
+  background-color: rgba(0, 204, 255, 1);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.fullstack {
+  font-size: 15px;
+  color: rgba(0, 204, 255, 1);
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .home {
+    padding-top: 70px;
+  }
+  .home-container {
+    margin-top: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .introduction {
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro-txt {
+    font-size: 20px;
+    text-align: center;
+  }
+  .name {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .socia-media ul li {
+    margin: 0px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .home {
+    padding-top: 20px;
+  }
+  .intro-txt h1 {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .coure {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .intro-txt h1 {
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 20px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .coure {
+    font-size: 15px;
+  }
+}

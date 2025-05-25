@@ -1,0 +1,48 @@
+{
+  "Education": [
+    {
+      "name": "Sadakathullah Appa College - Tirunelveli",
+      "course": "B.Sc Computer Science",
+      "percentage": "70.69%",
+      "startyear": 2019,
+      "endyear": 2022
+    },
+    {
+      "name": "V P K B Govt Hr Sec School - Kayathar",
+      "course": "Higher secondary school (State Board)",
+      "percentage": "54.67%",
+      "startyear": 2018,
+      "endyear": 2019
+    },
+    {
+      "name": "R C Fathima High School - Kayathar",
+      "course": "SSLC (State Board)",
+      "percentage": "67%",
+      "startyear": 2016,
+      "endyear": 2017
+    }
+  ],
+  "Certification": [
+    {
+      "name": "Python Full Stack Developement",
+      "center": "Besant Technologies",
+      "Location": "Velachery, Chennai - 600042",
+      "Certification": "Python Full Stack Development"
+    }
+  ],
+  "Internship": [
+    {
+      "Company": "RR IT Solutions",
+      "Location": "Velachery",
+      "Duration": "June - Present (1 year)",
+      "Roles": [
+        "Developed and integrated web applications with responsive design and functionality",
+        "Worked with RESTful API services to connect front-end and back-end systems",
+        "Utilized Javascript, HTML, CSS, and Python to create dynamic web applications",
+        "Implemented database management using MySQL",
+        "Contributed to both front-end and back-end development to deliver comprehensive solutions",
+        "Collaborated with senior developers to understand project requirements and improve architecture"
+      ]
+    }
+  ]
+}

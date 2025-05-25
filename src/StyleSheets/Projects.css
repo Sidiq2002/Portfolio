@@ -1,0 +1,116 @@
+.project {
+  margin-top: 100px;
+}
+
+.heading {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 150, 1) 0%,
+    rgba(0, 204, 255, 1) 100%
+  );
+  border-image-slice: 1;
+  padding-bottom: 30px;
+}
+.heading h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+  font-weight: bold;
+  background-image: linear-gradient(
+    250deg,
+    rgba(255, 0, 150, 1) 0%,
+    rgba(0, 204, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  border-image-slice: 1;
+}
+.cart {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.project-container {
+  border-radius: 20px;
+  border: 3px solid;
+  border-image: linear-gradient(
+    rgba(255, 0, 150, 1) 0%,
+    rgba(0, 204, 255, 1) 100%
+  );
+  border-image-slice: 1;
+  border-image-repeat: round;
+  opacity: 0.8;
+  padding: 20px 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.project-img {
+  display: flex;
+  justify-content: center;
+}
+.project-img img {
+  width: 280px;
+  height: 250px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-details h2 {
+  background-image: linear-gradient(
+    320deg,
+    rgba(255, 0, 150, 1) 0%,
+    rgba(0, 204, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
+.discription {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 280px;
+  font-size: 15px;
+}
+a {
+  padding: 5px 10px;
+  margin: 10px;
+}
+.link {
+  display: flex;
+  margin: 10px 0px;
+}
+.skill {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(0, 204, 255, 1);
+}
+span {
+  color: rgba(0, 204, 255, 1);
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.github {
+  color: rgba(255, 0, 150, 1);
+}
+.github:hover {
+  color: rgba(0, 204, 255, 1);
+  border-bottom: 1px solid rgba(255, 0, 150, 1);
+}
+.livelink {
+  color: rgba(0, 204, 255, 1);
+}
+.livelink:hover {
+  color: rgba(255, 0, 150, 1);
+  border-bottom: 1px solid rgba(0, 204, 255, 1);
+}
