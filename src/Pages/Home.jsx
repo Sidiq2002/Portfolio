@@ -1,5 +1,6 @@
 import "../StyleSheets/Home.css";
 import Profile from "../assets/Picture.png";
+import Resume from "../assets/Haji-Abubaker-Sidiq.pdf"
 export const Home = () => {
   return (
     <div className="home">
@@ -38,7 +39,7 @@ export const Home = () => {
             </ul>
           </div>
           <div className="resume-container">
-            <a href="/resume.pdf" download className="resume">
+            <a href={Resume} download className="resume">
               Resume
             </a>
           </div>

@@ -45,8 +45,8 @@ export const Frontend = [
     description:
       "A personal portfolio website showcasing my projects, skills, and experiences, built with React and styled with CSS.",
     technologies: "HTML / CSS, JavaScript, React",
-    githubLink: "https://github.com/Sidiq2002/Food-Order-App",
-    liveLink: "https://food-order-app-ten-lake.vercel.app/",
+    githubLink: "https://github.com/Sidiq2002/Portfolio",
+    liveLink: "https://myportfolio-website-react-js.netlify.app/",
   },
   {
     image: Food1,
