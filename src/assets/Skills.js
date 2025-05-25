@@ -35,7 +35,7 @@ import Food2 from "./Food2.png";
 import Travel1 from "./travel-1.jpg";
 import Travel2 from "./Travel2.jpg";
 import Movie from "./Movie.jpg";
-import weatherImage from "./weather.jpg";
+import weatherImage from "./WeatherImage.jpg";
 import Todo from "./Todo.jpg";
 
 export const Frontend = [
