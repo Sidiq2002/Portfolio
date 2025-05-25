@@ -35,7 +35,7 @@ import Food2 from "../assets/Food2.png";
 import Travel1 from "../assets/travel-1.jpg";
 import Travel2 from "../assets/Travel2.jpg";
 import Movie from "../assets/Movie.jpg";
-import Weather from "../assets/weather.jpg";
+import WeatherImg from "../assets/weather.jpg";
 import Todo from "../assets/Todo.jpg";
 
 export const Frontend = [
@@ -78,7 +78,7 @@ export const Frontend = [
     liveLink: "https://movie-hub-iota-jade.vercel.app/login",
   },
   {
-    image: Weather,
+    image: WeatherImg,
     projectName: "Weather App",
     description:
       "A JavaScript-based app providing real-time weather updates and forecasts for locations worldwide.",
