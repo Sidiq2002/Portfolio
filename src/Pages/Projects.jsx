@@ -26,12 +26,20 @@ export const Projects = ({ image }) => {
                   </p>
                   <div className="link">
                     <div>
-                      <a href={item.githubLink} className="github">
+                      <a
+                        href={item.githubLink}
+                        target="_blank"
+                        className="github"
+                      >
                         Github
                       </a>
                     </div>
                     <div>
-                      <a href={item.liveLink} className="livelink">
+                      <a
+                        href={item.liveLink}
+                        target="_blank"
+                        className="livelink"
+                      >
                         LiveLink
                       </a>
                     </div>
