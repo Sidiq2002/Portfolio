@@ -25,7 +25,7 @@ export const Navbar = () => {
         </div>
         <ul className={`nav-links ${isActive ? `active ` : ""}`} id="nav-links">
           <li>
-            <NavLink to="Home" className="nav-item" onClick={handleBurgerClick}>
+            <NavLink to="/" className="nav-item" onClick={handleBurgerClick}>
               Home
             </NavLink>
           </li>
