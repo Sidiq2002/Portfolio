@@ -25,9 +25,9 @@ export const Home = () => {
           
           <div className="socia-media">
             <ul>
-              <li><a href="https://linkedin.com" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
-              <li><a href="https://github.com" target="_blank"><i className="fa-brands fa-github"></i></a></li>
-              <li><a href="https://instagram.com" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/haji-abubaker-sidiq-a2382635b" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/Sidiq2002" target="_blank"><i className="fa-brands fa-github"></i></a></li>
+              <li><a href="https://www.instagram.com/sidiq_2_" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
             </ul>
           </div>
 
