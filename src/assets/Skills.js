@@ -30,7 +30,7 @@ export const tools = [
   { id: 3, icon: Vscode },
 ];
 
-import Portfolio from "./Portfolio.png";
+import Portfolio from "./portfolio.png";
 import Food1 from "./Food1.jpg";
 import Food2 from "./Food2.png";
 import Travel1 from "./travel-1.jpg";
