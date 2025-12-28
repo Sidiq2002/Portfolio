@@ -30,18 +30,19 @@
       "Certification": "Python Full Stack Development"
     }
   ],
-  "Internship": [
+  "Experience": [
     {
-      "Company": "RR IT Solutions",
-      "Location": "Velachery",
-      "Duration": "June - Present (1 year)",
-      "Roles": [
-        "Developed and integrated web applications with responsive design and functionality",
-        "Worked with RESTful API services to connect front-end and back-end systems",
-        "Utilized Javascript, HTML, CSS, and Python to create dynamic web applications",
-        "Implemented database management using MySQL",
-        "Contributed to both front-end and back-end development to deliver comprehensive solutions",
-        "Collaborated with senior developers to understand project requirements and improve architecture"
+      "Company": "PalmDigitalz",
+      "Location": "Chennai",
+      "Roles": "Software Developer ",
+      "Duration": "June 2025 – Present",
+      "Responsibilities": [
+        "Design, develop, and maintain web applications using a technical stack of Java (Spring Boot) and Python (Flask, Django).",
+        "Build responsive and dynamic front-end interfaces using HTML, CSS, JavaScript, and Bootstrap.",
+        "Participate proactively in professional training sessions and technical demonstrations.",
+        "Focus on continuous upskilling to contribute effectively to new skill projects.",
+        "Provide consistent updates to management regarding project progress and development milestones.",
+        "Maintain a commitment to professional conduct and adherence to company policies during the 21-month lock-in period."
       ]
     }
   ]

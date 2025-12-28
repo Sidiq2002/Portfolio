@@ -1,135 +1,37 @@
-.contact {
-  margin-top: 100px;
-}
-.your-details {
-  border-right: 2px solid;
-  border-image: linear-gradient(
-    rgba(255, 0, 150, 1) 0%,
-    rgba(0, 204, 255, 1) 100%
-  );
-  border-image-slice: 1;
-  padding-right: 60px;
-}
-.your-details h1 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.contact-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  gap: 50px;
-}
-form {
-  border: 2px solid;
-  border-image: linear-gradient(
-    rgba(255, 0, 150, 1) 0%,
-    rgba(0, 204, 255, 1) 100%
-  );
-  border-image-slice: 1;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-.button {
-  border: 1px solid;
-  border-image: linear-gradient(
-    rgba(0, 204, 255, 1) 0%,
-    rgba(255, 0, 150, 1) 100%
-  );
-  border-image-repeat: round;
-  border-image-slice: 1;
-  font-weight: bold;
-  font-size: x-large;
-  padding: 10px 115px;
-}
-button:hover {
-  border-image: linear-gradient(
-    rgba(255, 0, 150, 1) 0%,
-    rgba(0, 204, 255, 1) 100%
-  );
-  border-image-slice: 1;
-  color: white;
-  transition: all 0.3s ease-in-out;
+.contact-page { padding: 50px 10% 50px; min-height: 80vh; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+
+.contact-title { font-size: 4rem; color: #fff; line-height: 1; }
+.grad-text { background: linear-gradient(90deg, #00f2ff, #bd00ff); -webkit-background-clip: text; color: transparent; }
+.contact-sub { color: #8892b0; margin: 20px 0 50px; font-size: 1.1rem; }
+
+.method { margin-bottom: 30px; display: flex; flex-direction: column; }
+.method label { color: #bd00ff; font-size: 0.7rem; letter-spacing: 2px; font-weight: 800; }
+.method a { color: #ccd6f6; text-decoration: none; font-size: 1.2rem; margin-top: 5px; }
+
+.glass-form {
+  background: rgba(255, 255, 255, 0.02);
+  padding: 50px; border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
 }
 
-form input,
-textarea,
-button {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: none;
-  font-size: large;
-  border-radius: 10px;
-  background: none;
-  color: rgb(117, 115, 115);
-  border: 1px solid;
+.input-row input, .input-row textarea {
+  width: 100%; background: transparent; border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 0; color: #fff; margin-bottom: 30px; outline: none;
 }
-textarea {
-  height: 100px;
-  width: 100%;
-}
-input:focus {
-  outline: none;
-}
-textarea:focus {
-  outline: none;
-}
-.detail h2 {
-  color: rgba(255, 0, 150, 1);
-  font-size: 25px;
-}
-.detail p a {
-  text-decoration: none;
 
-  color: rgba(0, 204, 255, 1);
+.input-row input:focus { border-color: #00f2ff; }
+
+.send-button {
+  width: 100%; padding: 15px; border-radius: 15px; border: none;
+  background: #fff; color: #000; font-weight: 800; cursor: pointer; transition: 0.3s;
 }
-.my-detail h1 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.contact-details {
-  border-bottom: 1px solid;
-  border-image: linear-gradient(
-    320deg,
-    rgba(255, 0, 150, 1) 0%,
-    rgba(0, 204, 255, 1) 100%
-  );
-  border-image-slice: 1;
-  padding-bottom: 10px;
-}
-@media (max-width: 768px) {
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-  }
-  form {
-    width: 100%;
-    padding: 20px 8px;
-  }
-  .your-details {
-    width: 100%;
-    border-right: none;
-    border-bottom: 1px solid;
-    border-image: linear-gradient(
-      320deg,
-      rgba(255, 0, 150, 1) 0%,
-      rgba(0, 204, 255, 1) 100%
-    );
-    border-image-slice: 1;
-    padding-right: 0;
-    padding-bottom: 60px;
-  }
-  .my-detail {
-    width: 100%;
-    padding: 20px;
-  }
+
+.send-button:hover { background: #00f2ff; box-shadow: 0 0 20px rgba(0, 242, 255, 0.5); }
+
+@media (max-width: 900px) {
+  .contact-grid { grid-template-columns: 1fr; gap: 60px; }
+  .contact-title { font-size: 2.8rem; }
 }

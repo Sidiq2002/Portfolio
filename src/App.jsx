@@ -1,5 +1,4 @@
-import { Route, Routes, useLocation } from "react-router-dom";
-import "./App.css";
+import { Route, Routes } from "react-router-dom";
 import { Navbar } from "./Components/Navbar";
 import { Home } from "./Pages/Home";
 import { About } from "./Pages/About";
@@ -7,20 +6,21 @@ import { Projects } from "./Pages/Projects";
 import { Contact } from "./Pages/Contact";
 import { Skills } from "./Pages/Skills";
 import { ScrollTotop } from "./Components/ScrollTotop";
-import { useEffect } from "react";
 
 function App() {
-  const location = useLocation();
-
-  useEffect(() => {
-    document.title = `Portfolio ${location.pathname}`;
-  }, [location]);
-
   return (
     <>
       <ScrollTotop />
       <div className="App">
+        {/* Global 3D Snow Background - Train Removed */}
+        <div className="metro-bg-wrapper">
+          <div className="snow-model near"></div>
+          <div className="snow-model mid"></div>
+          <div className="snow-model far"></div>
+        </div>
+
         <Navbar />
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="About" element={<About />} />

@@ -1,83 +1,45 @@
-.skills{
-  margin-top: 100px;
-}
-.skills-container {
-  margin: 20px;
-}
-.skills-container h1 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-.tech-skills {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 5px;
-  justify-items: center;
+.skills-page {
+  padding: 20px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
-}
-.skill img {
-  width: 100px;
-  height: 100px;
 }
 
-.tools-container {
-  margin: 20px;
-}
-.tools-container h1 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-.tools-skills {
+.skills-header { text-align: center; margin-bottom: 50px; }
+.skills-header h1 { font-size: 2.5rem; color: #fff; letter-spacing: 2px; }
+.neon-text { background: linear-gradient(90deg, #00f2ff, #bd00ff); -webkit-background-clip: text; color: transparent; }
+.subtitle { color: #8892b0; margin-top: 10px; font-size: 0.9rem; }
+
+.skills-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 5px;
-  justify-items: center;
-  align-items: center;
-  width: 100%;
-}
-.tool img {
-  width: 150px;
-  height: 150px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
+  width: 90%;
+  max-width: 1000px;
 }
 
-@media (max-width: 768px) {
-  .tech-skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    justify-items: center;
-    align-items: center;
-  }
-  .skills-container h1 {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-  }
-  .skill img {
-    width: 50px;
-    height: 50px;
-  }
-  /* tools container */
-  .tools-skills {
-    display: flex;
-  }
-  .tools-container h1 {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-  }
-  .tools-skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
-    justify-items: center;
-    align-items: center;
-  }
-  .tool img {
-    width: 80px;
-    height: 80px;
-  }
+.glass-effect {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.skill-card:hover .glass-effect {
+  border-color: #00f2ff;
+  background: rgba(0, 242, 255, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 242, 255, 0.1);
+}
+
+.skill-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px rgba(0, 242, 255, 0.2));
 }
