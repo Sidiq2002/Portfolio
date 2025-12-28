@@ -11,6 +11,7 @@ import Vscode from "./vs.png";
 import Json from "./json.png";
 import Github from "./github.png";
 
+
 export const skills = [
   { id: 1, icon: Html },
   { id: 2, icon: Css },
@@ -29,7 +30,7 @@ export const tools = [
   { id: 3, icon: Vscode },
 ];
 
-import Picture from "./Portfolio.png";
+import Portfolio from "./Portfolio.png";
 import Food1 from "./Food1.jpg";
 import Food2 from "./Food2.png";
 import Travel1 from "./travel-1.jpg";
@@ -40,7 +41,7 @@ import Todo from "./Todo.jpg";
 
 export const Frontend = [
   {
-    image: Picture,
+    image: Portfolio,
     projectName: "Portfolio",
     description:
       "A personal portfolio website showcasing my projects, skills, and experiences, built with React and styled with CSS.",
